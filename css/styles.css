@@ -70,15 +70,23 @@ margin-top: 0px;
   
 }
 .carousel {
-  background: #512DA8; }
+  background: white;
+
+  border-radius: 10px; 
+  }
   .carousel .carousel-item {
-    height: 200px; }
+    height: 200px;
+    border-radius: 10px;  
+
+  }
     .carousel .carousel-item img {
       width: 100%;
       height: 100%;
       position: absolute;
+      border-radius: 10px; 
       top: 0;
       left: 0;
+      border-color: black;
 
        }
 @media (min-width: 1000px) {
@@ -93,11 +101,6 @@ margin-top: 0px;
 
        }
 }
-#carouselButton {
-  right: 0px;
-  position: absolute;
-  bottom: 0px;
-  z-index: 1; }
 
 .btn{
   background-color:#0054AE; 
@@ -135,6 +138,7 @@ will-change: transform;
 .logotipos img:hover{
 transform: translateX(-25%);
 filter: brightness(83%);
+border-radius: 10px;  
 }
 
 .social-container{
