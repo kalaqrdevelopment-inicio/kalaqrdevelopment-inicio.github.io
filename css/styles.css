@@ -101,6 +101,27 @@ margin-top: 0px;
 
        }
 }
+.carruselVertical {
+  background: white;
+
+  border-radius: 5px; 
+  }
+  .carruselVertical .carousel-item {
+    height: 350px;
+    border-radius: 5px;  
+
+  }
+    .carruselVertical .carousel-item img {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      border-radius: 5px; 
+      top: 0;
+      left: 0;
+      border-color: black;
+
+       }
+
 
 .btn{
   background-color:#0054AE; 
