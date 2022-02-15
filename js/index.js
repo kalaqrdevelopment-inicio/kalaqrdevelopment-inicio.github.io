@@ -1,22 +1,15 @@
 window.sr = ScrollReveal();
 
-	sr.reveal('.logo', {
+	/*sr.reveal('.logoIndex', {
 		duration: 1500, //tiempo
 		origin: 'bottom', //origen
 		distance: '-250px', //distancia
 		
 
 
-	}); 
-	sr.reveal('.fondologo', {
-		duration: 2000, //tiempo
-		origin: 'top', //origen
-		distance: '0px', //distancia
-		
-
-
-	}); 
-	sr.reveal('.hambre', {
+	}); */
+	
+	sr.reveal('.tituloIndex', {
 		delay:400,
 		duration: 1500, //tiempo
 		origin: 'right', //origen
@@ -63,7 +56,7 @@ window.sr = ScrollReveal();
 
 
 
-	sr.reveal('.piepagina', {
+	/*sr.reveal('.piepagina', {
 		duration: 1500, //tiempo
 		origin: 'left', //origen
 		distance: '-100px', //distancia
@@ -77,7 +70,7 @@ window.sr = ScrollReveal();
 		distance: '-100px', //distancia
 		reset:1000
 
-	}); 
+	}); */
 
 
 //CARRUSEL
