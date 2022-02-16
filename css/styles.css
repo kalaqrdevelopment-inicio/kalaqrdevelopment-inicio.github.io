@@ -124,10 +124,24 @@ margin-top: 0px;
 
 
 .btn{
+  background-color:#595959; 
+  font-family: 'Rowdies', cursive;
+  border-radius: 7px;  
+  height: 50px;
+  display: flex;
+   
+    align-items: center;
+
+}
+.btn:hover{
   background-color:#0054AE; 
   font-family: 'Rowdies', cursive;
-  color:;
-  
+  border-radius: 7px;  
+  height: 50px;
+  display: flex;
+   
+    align-items: center;
+   
 }
 
 .logotipos img {
