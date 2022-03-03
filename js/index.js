@@ -18,6 +18,7 @@ window.sr = ScrollReveal();
 
 
 	}); 
+
 	sr.reveal('.logotipos', {
 		delay:500,
 		duration: 1500, //tiempo
