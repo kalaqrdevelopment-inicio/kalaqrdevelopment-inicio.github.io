@@ -1,13 +1,13 @@
 window.sr = ScrollReveal();
 
-	/*sr.reveal('.logoIndex', {
+	sr.reveal('.logoIndex', {
 		duration: 1500, //tiempo
 		origin: 'bottom', //origen
 		distance: '-250px', //distancia
 		
 
 
-	}); */
+	}); 
 	
 	sr.reveal('.tituloIndex', {
 		delay:400,
@@ -56,7 +56,7 @@ window.sr = ScrollReveal();
 
 
 
-	/*sr.reveal('.piepagina', {
+	sr.reveal('.piepagina', {
 		duration: 1500, //tiempo
 		origin: 'left', //origen
 		distance: '-100px', //distancia
@@ -70,7 +70,7 @@ window.sr = ScrollReveal();
 		distance: '-100px', //distancia
 		reset:1000
 
-	}); */
+	}); 
 
 
 //CARRUSEL
@@ -93,3 +93,22 @@ $(document).ready(function () {
     return false;
   });
 });
+
+
+var check=document.querySelector(".check");
+check.addEventListener('click',idioma);
+
+function idioma(){
+	console.log(check.checked);
+	let id=check.checked;
+	if(id==true){
+		location.href="eng/index.html";
+
+	}else{
+		location.href="../index.html";
+	}
+	
+}
+
+
+
